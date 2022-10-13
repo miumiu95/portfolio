@@ -36,7 +36,7 @@ header{width:100%; background:#fef100;
     padding-bottom: 0px;
     border-bottom:#f00 3px solid;
 }
-
+/* 
 #slide{overflow:hidden; width:80%;}
 #slide img{width: 100%;}
 #slide ul{display:flex; width:600%;
@@ -73,7 +73,7 @@ header{width:100%; background:#fef100;
     84.1%{margin-left:-500%; opacity:1;}
     99%{margin-left:-500%; opacity:1;}
     100%{margin-left:-500%; opacity:0;}
-}
+} */
 
 #news{width:80%;}
 .imgbox{display:flex;}
@@ -412,3 +412,34 @@ header{width:100%; background:#fef100;
     margin: 0 0 0 auto;
     display:flex;
 }
+
+/* slick slider (fade) */
+#slide{
+    position: relative;
+}
+
+.prev{
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    text-align: center;        
+    line-height: 40px;
+    width:40px;
+    height:40px; 
+    border-radius: 50%;
+    background:rgba(0,0,0,.3);
+    left: 40px;
+}
+.next{
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 10;    
+    text-align: center;        
+    line-height: 40px;
+    width:40px;
+    height:40px; 
+    border-radius: 50%;
+    background:rgba(0,0,0,.3);    
+    right:40px;
+}
+
