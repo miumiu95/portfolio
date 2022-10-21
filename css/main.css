@@ -10,14 +10,14 @@
 
 *{margin: 0; padding:0;}
 
-#bgvideo{
+/* #bgvideo{
     min-width:100%; 
     min-height:100vh;
     position: fixed;
     width:auto;
     height:auto;
     z-index: -999;
-}
+} */
 
 /* body{
     background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
@@ -128,6 +128,11 @@ section:nth-child(1){
     background:none;
 }
 
+#intro{
+    background: url("../img/introbg.jpg");
+    background-size: cover;
+    background-position: center center;
+}
 #intro .title{
     position: absolute;
     top:50%; left:50%;
