@@ -127,11 +127,18 @@ section:nth-child(1){
     background:none;
 }
 
-#intro{
+/* #intro{
     background: url("../img/introbg.jpg");
     background-size: cover;
     background-position: center center;
+} */
+#intro img{
+    width: 88%;
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
 }
+
 /* #intro .title{
     position: absolute;
     top:50%; left:50%;
@@ -240,7 +247,7 @@ section.on .mockup{
     position: fixed;
     display: flex;
     bottom:40px;
-    left:60%;
+    left:52%;
     transform: translateX(-50%);
     z-index: 9999;
 }
