@@ -109,7 +109,6 @@ nav .gnb a{
     color:#fff;
     transition: .3s;
 }
-
 nav .gnb a:hover{
     background:#69f;
 }
@@ -133,7 +132,7 @@ section:nth-child(1){
     background-size: cover;
     background-position: center center;
 }
-#intro .title{
+/* #intro .title{
     position: absolute;
     top:50%; left:50%;
     transform: translate(-50%, -50%);
@@ -141,22 +140,40 @@ section:nth-child(1){
 #intro .title h1{
     text-align: center;
     font-size: 3rem;
-}
+} */
 
-#profile .title{
+/* #profile .title{
+    position: absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+} */
+/* #profile{
+    background: url("../img/Profile.jpeg");
+    background-size: cover;
+    background-position: center center;
+} */
+#profile img{
+    width: 88%;
     position: absolute;
     top:50%; left:50%;
     transform: translate(-50%, -50%);
 }
 
-section .card{
+/* section .card{
     position: absolute;
     bottom: 15vh;
     width:15%;
     left:-250px;
     opacity: 0;
     transition: .6s;
+} */
+section .card{
+    position: absolute;
+    width: 15%;
+    left: 0px;
+    top: 0px;
 }
+
 section .card img{
     width:100%;
 }
@@ -165,7 +182,7 @@ section .mockup{
     top:50%; right:-200px;    
     opacity: 0;    
     width:80%;
-    height:70vh;    
+    height:100vh;       
     transition: .6s;
     transition-delay: .3s;
     transform: translateY(-50%);
@@ -208,12 +225,12 @@ section.on .mockup{
     background-position: center center;
 }
 #work02 .mockup{
-    background: url("../img/work02_mockup.jpg");
-    background-size: cover;
+    background: url("../img/work02_mockup.jpg") no-repeat;
+    background-size: contain;
     background-position: center center;
 }
 #work03 .mockup{
-    background: url("../img/work03_mockup.jpg");
+    background: url("../img/01cardmockup.jpg");
     background-size: cover;
     background-position: center center;
 }
@@ -223,16 +240,16 @@ section.on .mockup{
     position: fixed;
     display: flex;
     bottom:40px;
-    left:50%;
+    left:60%;
     transform: translateX(-50%);
     z-index: 9999;
 }
 .menu a{
-    width:24px;
-    height:24px;
+    width:20px;
+    height:20px;
     background:#333;
     border-radius: 12px;
-    margin: 24px;
+    margin: 12px;
     transition: .3s;
 }
 .menu a.on{
@@ -241,7 +258,7 @@ section.on .mockup{
 }
 
 /* profile darkMode btn */
-.btn{
+/* .btn{
     width:120px; height:40px;
     border-radius: 20px;
     background:var(--btn-bg);
@@ -273,18 +290,18 @@ section.on .mockup{
 }
 .btn.active .btn-text{
     transform: translateX(-15px);
-}
-#profile.active{
+} */
+/* #profile.active{
     background:var(--btn-bg);
     color:var(--btn-color);
-}
+} */
 
 /* profile 사선이동 배경 */
-#profile{
+/* #profile{
     overflow: hidden;
     background: none; 
-}
-.bg-wrap{
+} */
+/* .bg-wrap{
     width:200%;
     height:200vh;
     position: absolute;
@@ -292,8 +309,8 @@ section.on .mockup{
     transform: translate(-50%, -50%);
     display: flex;
     z-index: -1;
-}
-#profile .bg-box1{
+} */
+/* #profile .bg-box1{
     width:45%;
     height:100%;
     background:#ccc;
@@ -316,4 +333,4 @@ section.on .mockup{
 }
 #profile.on .bg-box2{
     transform: rotate(15deg);
-}
+} */
