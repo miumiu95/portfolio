@@ -246,6 +246,31 @@ section.on .mockup{
     background-size: cover;
     background-position: center center;
 }
+#work03-3 .mockup{
+    background: url("../img/3-3cardmockup.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#work04 .mockup{
+    background: url("../img/4cardmockup.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#work05 .mockup{
+    background: url("../img/5cardmockup.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#work06 .mockup{
+    background: url("../img/6cardmockup.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+#work07 .mockup{
+    background: url("../img/7cardmockup.jpg");
+    background-size: cover;
+    background-position: center center;
+}
 
 /* menu */
 .menu{
