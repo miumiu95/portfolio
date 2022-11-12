@@ -232,15 +232,11 @@ section.on .mockup{
     background-position: center center;
 }
 #work02 .mockup{
-<<<<<<< HEAD
     background: url("../img/work02_mockup.png");
-    /* background: url("../img/work02_mockup.jpg") no-repeat; */
-=======
-    background: url("../img/work02_mockup.png") no-repeat;
->>>>>>> d0c82b74510e3a75ab435ea9e6ba3281ed4c5dc3
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
 }
+
 #work03-1 .mockup{
     background: url("../img/3-1cardmockup.jpg");
     background-size: cover;
