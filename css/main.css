@@ -227,12 +227,13 @@ section.on .mockup{
 
 /* .mokup bgimg */
 #work01 .mockup{
-    background: url("../img/work01_mockup.jpg");
+    background: url("../img/work01_mockup.png");
     background-size: cover;
     background-position: center center;
 }
 #work02 .mockup{
-    background: url("../img/work02_mockup.jpg") no-repeat;
+    background: url("../img/work02_mockup.png");
+    /* background: url("../img/work02_mockup.jpg") no-repeat; */
     background-size: contain;
     background-position: center center;
 }
@@ -247,7 +248,7 @@ section.on .mockup{
     background-position: center center;
 }
 #work03-3 .mockup{
-    background: url("../img/3-3cardmockup.jpg");
+    background: url("../img/3-3cardmockup.png");
     background-size: cover;
     background-position: center center;
 }
@@ -257,7 +258,7 @@ section.on .mockup{
     background-position: center center;
 }
 #work05 .mockup{
-    background: url("../img/5cardmockup.jpg");
+    background: url("../img/5cardmockup.png");
     background-size: cover;
     background-position: center center;
 }
@@ -267,7 +268,12 @@ section.on .mockup{
     background-position: center center;
 }
 #work07 .mockup{
-    background: url("../img/7cardmockup.jpg");
+    background: url("../img/7cardmockup.png");
+    background-size: cover;
+    background-position: center center;
+}
+#work08 .mockup{
+    background: url("../img/8cardmockup.png");
     background-size: cover;
     background-position: center center;
 }
